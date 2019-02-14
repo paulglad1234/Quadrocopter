@@ -61,14 +61,14 @@
             this.добавитьКвадрокоптерToolStripMenuItem.Name = "добавитьКвадрокоптерToolStripMenuItem";
             this.добавитьКвадрокоптерToolStripMenuItem.Size = new System.Drawing.Size(150, 20);
             this.добавитьКвадрокоптерToolStripMenuItem.Text = "Добавить квадрокоптер";
-            this.добавитьКвадрокоптерToolStripMenuItem.Click += new System.EventHandler(this.добавитьКвадрокоптерToolStripMenuItem_Click);
+            this.добавитьКвадрокоптерToolStripMenuItem.Click += new System.EventHandler(this.addCopterToolStripMenuItem_Click);
             // 
             // запуститьПультыДУToolStripMenuItem
             // 
             this.запуститьПультыДУToolStripMenuItem.Name = "запуститьПультыДУToolStripMenuItem";
             this.запуститьПультыДУToolStripMenuItem.Size = new System.Drawing.Size(135, 20);
             this.запуститьПультыДУToolStripMenuItem.Text = "Запустить пульты ДУ";
-            this.запуститьПультыДУToolStripMenuItem.Click += new System.EventHandler(this.запуститьПультыДУToolStripMenuItem_Click);
+            this.запуститьПультыДУToolStripMenuItem.Click += new System.EventHandler(this.turnOnRCToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -90,7 +90,7 @@
             this.очиститьПолеToolStripMenuItem.Name = "очиститьПолеToolStripMenuItem";
             this.очиститьПолеToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
             this.очиститьПолеToolStripMenuItem.Text = "Очистить поле";
-            this.очиститьПолеToolStripMenuItem.Click += new System.EventHandler(this.очиститьПолеToolStripMenuItem_Click);
+            this.очиститьПолеToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
             // 
             // Quadrocopters
             // 

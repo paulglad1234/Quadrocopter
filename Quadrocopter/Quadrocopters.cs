@@ -38,17 +38,17 @@ namespace Quadrocopter
             pictureBox1.Invalidate();
         }
 
-        private void добавитьКвадрокоптерToolStripMenuItem_Click(object sender, EventArgs e)
+        private void addCopterToolStripMenuItem_Click(object sender, EventArgs e)
         {
             w.AddQuadrocopter();
         }
 
-        private void запуститьПультыДУToolStripMenuItem_Click(object sender, EventArgs e)
+        private void turnOnRCToolStripMenuItem_Click(object sender, EventArgs e)
         {
             w.TurnOnRemoteControls();
         }
 
-        private void очиститьПолеToolStripMenuItem_Click(object sender, EventArgs e)
+        private void clearToolStripMenuItem_Click(object sender, EventArgs e)
         {
             w.Clear();
         }
